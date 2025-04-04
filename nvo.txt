@@ -1,1 +1,20 @@
-complicado
+1)Nueva carpeta del proyecto en escritorio de windows llamada sqlite-node
+2)git init 
+3).gitignore (/node_modules
+              package-lock.json
+              package.json)
+4)git add .gitignore
+5)git commit -m 'archivo oculto .gitignore'
+6)npm init -y
+7)npm i sqlite3
+8)index.js
+9)data.db
+10)node index (varias veces: abrir db, crear tabla categories, insertar Categoria 1, insertar...)
+11)git add .
+12)git commit -m 'solo pasa db e index.js' pq paquetes en windows no son compatibles con linux
+13)clonar repositorio remoto Sergio395, lo hice en Escritorio/Proyectos
+14)VSCode,en Manjaro, npm init -y luego npm i sqlite3, index.js insert Categoria 2
+******************************** hecho
+15)git add . + git commit -m 'cat2'
+16)Ver token y comando push
+

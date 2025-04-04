@@ -19,7 +19,7 @@ sql = `CREATE TABLE IF NOT EXISTS categories(
 
 sql = `INSERT INTO categories (name) VALUES (?)`;
 
-db.run(sql,["Categoria 1"],(error)=>{
+db.run(sql,["Categoria 2"],(error)=>{
     if(error){
         console.error(error);
     }
